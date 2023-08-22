@@ -24,7 +24,7 @@ FluidSense is a Micro python script to read, filter, and manipulate sensor data 
     ├── requirements.txt
     └── sensor_lib.py
 
-### Dataframe Structure
+### Dataframe Structure:
 
 ```sh
 sensor_lib:          Fecha      Hora     Sensor   Medicion      Estado
@@ -44,18 +44,15 @@ sensor_lib:          Fecha      Hora     Sensor   Medicion      Estado
 ```
 
 
-#### Classes
-Config: Defines configuration parameters, including paths, date ranges, and sensor values.
-SensorMeasurement: (If using Pydantic) A Pydantic model for validating and handling sensor measurement data.
-SensorDataSet: Encapsulates the logic for loading and filtering CSV data, and provides methods to get and add data.
+#### Classes:
 
-```python
-class Config: Defines the default configuration parameters, including paths,  filtering values: date ranges, and sensor values.
 
-class SensorMeasurement:  A Pydantic model for validating and handling sensor measurement data.
+**Config**: Defines the default configuration parameters, including paths,  filtering values: date ranges, and sensor values.
 
-Class SensorDataSet: Encapsulates the logic for loading and filtering CSV data, and provides methods to get and add more information throught Dataframe.
-```
+**class SensorMeasurement**:  A Pydantic model for validating and handling sensor data.
+
+**class SensorDataSet**: Encapsulates the logic for loading and filtering CSV data, and provides methods to get and add more information throught Dataframe.
+
 #### Example Usage
 ```python
 config = Config()
@@ -63,7 +60,7 @@ sensor_data = SensorDataSet(config)
 data = sensor_data.get_data()
 ```
 
-## Installation
+## Installation:
 Python: Version 3.10 or higher is required to run this project.
 #TODO I didn't have time to test this with another Python version or add Tox and a complete test suite as I would like..
 
