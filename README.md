@@ -1,7 +1,6 @@
 # FluidSense 💧
 
-FluidSense is a Python programming exercise designed to read, filter, and manipulate CSV files containing information about different sensors. 
-It allows  to retrieve and add data related to sensor measurements, including timestamp, status, based on this Kaggle dataset: [Dataset (pump-sensor-data)](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data).
+FluidSense is a Python project to read, filter, and manipulate sensor data from CSV files, based on this this Kaggle dataset: [Dataset (pump-sensor-data)](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data).
 
 
 ### Features
@@ -86,7 +85,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
 ```
 
-#### 🚀 Finally, go to [http://localhost:8000/docs](http://localhost:8000/docs), and you can start playing with the FluidSense script.
+#### 🚀 Finally, go to [http://localhost:8000/docs](http://localhost:8000/docs), and you can start playing with this micro app 💧.
 ![Captura de pantalla de la documentación de FastAPI](doc_images/fastapi_doc.png)
 
 
