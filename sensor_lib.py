@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 class Config:
-    CSV_PATH = "sensor.csv"
+    CSV_PATH = "csv_data/sensor.csv"
     DATE_MIN = "2018-04-01"
     DATE_MAX = "2018-04-30"
     SENSOR_VALUE_MIN = 20
