@@ -1,4 +1,4 @@
-# FluidSense
+# FluidSense 💧
 
 FluidSense is a Python programming exercise designed to read, filter, and manipulate CSV files containing information about different sensors. 
 It allows  to retrieve and add data related to sensor measurements, including timestamp, status, based on this Kaggle dataset: [Dataset (pump-sensor-data)](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data).
