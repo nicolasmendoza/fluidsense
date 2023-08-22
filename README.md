@@ -49,7 +49,7 @@ sensor_lib:          Fecha      Hora     Sensor   Medicion      Estado
 
 **Config**: Defines the default configuration parameters, including paths,  filtering values: date ranges, and sensor values.
 
-**class SensorMeasurement**:  A Pydantic model for validating and handling sensor data.
+**class SensorData**:  A Pydantic model for validating and handling sensor data.
 
 **class SensorDataSet**: Encapsulates the logic for loading and filtering CSV data, and provides methods to get and add more information throught Dataframe.
 
