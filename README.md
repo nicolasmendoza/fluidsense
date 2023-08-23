@@ -82,7 +82,5 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
 ```
 
-#### 🚀 Finally, go to [http://localhost:8000/docs](http://localhost:8000/docs), and you can start playing with this micro app 💧.
-![Captura de pantalla de la documentación de FastAPI](doc_images/fastapi_doc.png)
-
+##### 🚀 Finally, go to [http://localhost:8000/docs](http://localhost:8000/docs), and you can start playing with this micro app 💧.
 
