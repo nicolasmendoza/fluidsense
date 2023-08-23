@@ -15,12 +15,6 @@ FluidSense is a micro-tool to read, filter, and manipulate sensor data from CSV 
 - FastAPI: For creating and handling API endpoints.
 - Pydantic: For DataModel Validations.
 
-### Structure:
-    ├── csv_data
-    │   └── sensor.csv
-    ├── main.py
-    ├── requirements.txt
-    └── sensor_lib.py
 
 ### Dataframe model:
 
@@ -41,22 +35,6 @@ sensor_lib:          Fecha      Hora     Sensor   Medicion      Estado
 [304 rows x 5 columns]
 ```
 
-
-#### Classes:
-
-
-**Config**: Defines the default configuration parameters, including paths,  filtering values: date ranges, and sensor values.
-
-**class SensorData**:  A Pydantic model for validating and handling sensor data.
-
-**class SensorDataSet**: Encapsulates the logic for loading and filtering CSV data, and provides methods to get and add more information throught Dataframe.
-
-#### Example Usage
-```python
-config = Config()
-sensor_data = SensorDataSet(config)
-data = sensor_data.get_data()
-```
 
 ## Installation:
 Python: Version 3.10 or higher is required to run this project.
