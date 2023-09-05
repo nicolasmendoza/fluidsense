@@ -38,7 +38,6 @@ sensor_lib:          Fecha      Hora     Sensor   Medicion      Estado
 
 ## Installation:
 Python: Version 3.10 or higher is required to run this project.
-#TODO I didn't have time to test this with another Python version or add Tox and a complete test suite as I would like..
 
 #### Virtual Environment (Recommended)
 ```sh
